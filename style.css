@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.card {
+    background: #ffffff;
+    padding: 24px 32px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 280px;
+}
+
+
+.status {
+    font-size: 20px;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+
+.online {
+    color: #16a34a;
+}
+
+
+.offline {
+    color: #dc2626;
+}
+
+
+button {
+    margin-top: 16px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #2563eb;
+    color: white;
+    font-size: 14px;
+}
